@@ -31,7 +31,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         'PORT': '5432',   # for PostgreSQL
 
-        'NAME': 'django_crm_db',
+        'NAME': 'django_crm_marscode_db',
         'USER': 'arslan',
         'PASSWORD': '',
         'HOST': 'localhost',
@@ -174,7 +174,7 @@ SECURE_HSTS_PRELOAD = False
 
 # For more security, replace the url prefixes
 # with your own unique value.
-SECRET_CRM_PREFIX = '123/'
+SECRET_CRM_PREFIX = 'crm/'
 SECRET_ADMIN_PREFIX = '456-admin/'
 SECRET_LOGIN_PREFIX = '789-login/'
 
@@ -266,7 +266,7 @@ MARK_PAYMENTS_THROUGH_REP = False
 SITE_TITLE = 'CRM'
 ADMIN_HEADER = "ADMIN"
 ADMIN_TITLE = "CRM Admin"
-INDEX_TITLE = _('Main Menu')
+INDEX_TITLE = _('Main Menu MarsCode')
 
 
 # This is copyright information. Please don't change it!
